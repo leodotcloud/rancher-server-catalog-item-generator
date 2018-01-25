@@ -1,0 +1,4 @@
+name: Rancher Server (non HA, external DB service)
+description: |
+  Run Rancher Server in non HA mode with built-in external database service.
+version: __RANCHER_SERVER_VERSION__

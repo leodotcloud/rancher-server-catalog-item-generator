@@ -1,0 +1,33 @@
+.catalog:
+    version: __RANCHER_SERVER_VERSION__
+    questions:
+    - variable: RANCHER_SERVER_PORT
+      description: "Public port to run rancher server"
+      label: "Public Port"
+      required: true
+      default: "8080"
+      type: "int"
+    - variable: MYSQL_ROOT_PASSWORD
+      description: "Database ROOT Password"
+      label: "Database ROOT Password"
+      required: true
+      default: "rancher"
+      type: "string"
+    - variable: MYSQL_DATABASE
+      description: "Database Name to use"
+      label: "Database Name"
+      required: true
+      default: "cattle"
+      type: "string"
+    - variable: MYSQL_USER
+      description: "Database Username"
+      label: "Database Username"
+      required: true
+      default: "cattle"
+      type: "string"
+    - variable: MYSQL_PASSWORD
+      description: "Database Password"
+      label: "Database Password"
+      required: true
+      default: "cattle"
+      type: "string"
